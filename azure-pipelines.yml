@@ -99,8 +99,8 @@ jobs:
     inputs:
       packageType: 'sdk'
       version: '5.0.100'
-  - script: dotnet build --configuration $(buildConfiguration)
-    displayName: 'dotnet build $(buildConfiguration)'
+  - script: dotnet build ./src2/MIXERP.Net5.sln
+    displayName: 'dotnet build $(./src2/MIXERP.Net5.sln)'
   - task: DotNetCoreCLI@2
     displayName: 'run tests'
     inputs:
