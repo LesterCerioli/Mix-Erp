@@ -28,3 +28,4 @@ src-beta2/Web/MixERP.Net.Web.UI/Resource/CustomReports
 *.exe
 *.suo
 *.user
+/.vs
