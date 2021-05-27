@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MixErp.Net5.Common.Helpers
 {
-    public static class  catalogHelper
+    public static class  CatalogHelper
     {
         public static void ValidateCatalog(string catalog)
         {
@@ -18,7 +18,13 @@ namespace MixErp.Net5.Common.Helpers
             string catalogs = ConfigurationHelper.GetDbServerParameter("catalogs");
             string meta = ConfigurationHelper.GetDbServerParameter("MetaDatabase");
 
-            List<string> = catalogs.Split(",").Select
+            List<string> = catalogs.Split(",").Select(p => p.Trim()).ToList();
+            list.Add(meta);
+            
+            if (!list.Contains(catalog))
+            {
+                throw new MixERPException(Titles.AcessIsDenied);
+            }
                 
             
 
