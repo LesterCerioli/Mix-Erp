@@ -30,3 +30,4 @@ src-beta2/Web/MixERP.Net.Web.UI/Resource/CustomReports
 *.user
 /.vs
 /src2/.vs/MIXERP.Net5/DesignTimeBuild/.dtbcache.v2
+/src3/.vs/WebVella/DesignTimeBuild/.dtbcache.v2
