@@ -1,5 +1,15 @@
 ![MixERP Dashboard](https://raw.githubusercontent.com/mixerp/mixerp/master/screenshots/dashboard.png)
 
+# Update May 29,2021
+
+  - ClinCode implementation
+  - NET 5 SDK implementation
+  - Frontend implementation with Razor
+  - Microservice implementation
+  - Event Driven Architecture 
+
+
+
 # Update September 29, 2017
 
 - Follow the developer documentation in youtube. Please subscribe to our channel: [MixERP Youtube Channel](https://www.youtube.com/channel/UCS5Bt00s3_8-o0oI4CLDYDg).
