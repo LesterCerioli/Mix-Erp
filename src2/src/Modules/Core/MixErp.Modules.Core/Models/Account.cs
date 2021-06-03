@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MixErp.Modules.Core.Models
 {
-    class Account
+    public class Account
     {
     }
 }

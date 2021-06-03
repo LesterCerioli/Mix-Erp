@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MixErp.Modules.Core.Models
 {
-    class StateScrudView
+    public class StateScrudView
     {
     }
 }
